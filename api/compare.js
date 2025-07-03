@@ -143,7 +143,7 @@ module.exports = async (req, res) => {
       products.push(product);
     } catch (e) {
       products.push({
-        naziv: "Greška pri dohvaćanju",
+        naziv: "Greška pri dohvaćanju AHA",
         cijena: "-",
         webshop: "-",
         sku: "-",
